@@ -1,0 +1,16 @@
+npm install -g @angular/cli
+
+ng new social-reporter
+
+npm install --save d3
+npm install --save-dev @types/d3
+
+
+git remote add origin https://github.com/USERNAME/PROJECT_NAME.git 
+
+git remote -v
+
+npm install -g angular-cli-ghpages 
+
+ng build --prod --base-href https://USERNAME.github.io/social-reporter/
+
