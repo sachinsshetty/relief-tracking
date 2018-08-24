@@ -9,12 +9,13 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  
+
   <app-root></app-root>
 
   <script src="http://d3js.org/d3.v3.min.js"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
-  <script src="https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/datamaps.none.js"></script>
+   <!--<script src="https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/datamaps.none.js"></script>-->
+  <script src="assets/geography-data/datamaps.none.js"></script>
   <div id="india" style="height: 600px; width: 900px;"></div>
   <script>
       var bubble_map = new Datamap({
@@ -25,7 +26,8 @@
               highlightOnHover: true,
               borderColor: '#444',
               borderWidth: 0.5,
-              dataUrl: 'https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/india.topo.json'
+              // dataUrl: 'https://rawgit.com/Anujarya300/bubble_maps/master/data/geography-data/india.topo.json'
+              dataUrl: 'assets/geography-data/india.topo.json'
               //dataJson: topoJsonData
           },
           fills: {
